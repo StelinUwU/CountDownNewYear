@@ -31,12 +31,13 @@ body{
 }
 .container__box{
   display: flex;
+  flex-wrap: wrap;
 }
 .box{
   display: flex;
   height: 100px;
   width: 100px;
-  margin-right: 20px;
+  margin: 10px 20px 10px 20px;
   align-items: center;
   justify-content: center;
   background-color: white;
@@ -48,14 +49,14 @@ body{
 
 footer{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: white;
   align-items: center;
   height: 15vh;
   border: 1px solid white;
+  width: 100vw;
 }
 .side{
-  width: 50vw;
   display: flex;
   justify-content: center;
 
@@ -67,4 +68,20 @@ footer{
 .side img{
   width: 50px;
   align-self: center;
+}
+
+
+
+
+@media (max-width: 600px) {
+.container__box{
+  display: block;
+}
+
+.container__info div h1{
+  font-size: 20px;
+}
+.container__info div p{
+  font-size: 20px;
+}
 }
