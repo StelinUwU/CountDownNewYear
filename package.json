@@ -1,0 +1,14 @@
+{
+  "name": "cuentaregresiva",
+  "version": "1.0.0",
+  "description": "Cuenta regresiva 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "2021"
+  ],
+  "author": "Stelin",
+  "license": "MIT"
+}
