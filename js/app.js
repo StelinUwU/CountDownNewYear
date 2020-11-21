@@ -4,9 +4,12 @@ const minutes = document.querySelector(".minutes").children[0].children[0];
 const seconds = document.querySelector(".seconds").children[0].children[0];
 const year = new Date().getFullYear()
 const nyear = year + 1
+const nyearHTML = document.querySelector(".container__info div p")
 const countDownDate = new Date(`${nyear}, January, 1 `).getTime(); 
 
 
+//Script año
+nyearHTML.textContent = nyear
 
 
 
